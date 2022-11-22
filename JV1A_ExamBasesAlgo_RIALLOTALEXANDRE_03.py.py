@@ -11,7 +11,6 @@ for tri in range (len(myTable)):
 
     for i in range (len(myTable)):
         if (grand > myTable[i]):
-            grand=myTable[i-1]
             inversion=myTable[i-1]
             myTable[i-1] = myTable[i]
             myTable[i] = inversion
