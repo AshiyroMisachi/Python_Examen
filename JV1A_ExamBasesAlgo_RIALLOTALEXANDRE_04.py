@@ -43,6 +43,8 @@ while (boucle!=0):
     print(case4,entrecase,case5,entrecase,case6)
     print(case7,entrecase,case8,entrecase,case9)
 
+    if (case1==case2==case3):
+        print("La partie est terminé Joueur X à gagné")
     print("Joueur O")
     joueurO=input()
     if (joueurO == '1'):
