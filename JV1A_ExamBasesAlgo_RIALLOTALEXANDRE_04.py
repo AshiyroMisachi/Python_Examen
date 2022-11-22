@@ -45,6 +45,7 @@ while (boucle!=0):
 
     if (case1==case2==case3):
         print("La partie est terminé Joueur X à gagné")
+
     print("Joueur O")
     joueurO=input()
     if (joueurO == '1'):
@@ -69,3 +70,11 @@ while (boucle!=0):
     print(case1,entrecase,case2,entrecase,case3)
     print(case4,entrecase,case5,entrecase,case6)
     print(case7,entrecase,case8,entrecase,case9)
+
+    if (case1==case2==case3):
+        print("La partie est terminé Joueur O à gagné")
+    
+
+    #Pour faire un puissance 4 il faudra d'abord agrandir la grille
+    #Ensuite faire en sorte que le numéro donné descende au plus bas de la grille
+    #Et agrandir recherche de ligne égale 
