@@ -78,3 +78,4 @@ while (boucle!=0):
     #Pour faire un puissance 4 il faudra d'abord agrandir la grille
     #Ensuite faire en sorte que le numéro donné descende au plus bas de la grille
     #Et agrandir recherche de ligne égale 
+    
